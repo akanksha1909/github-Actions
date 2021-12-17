@@ -4,5 +4,4 @@ jobs:
   example-job:
     runs-on: ubuntu-latest
     steps:
-      - run: bash ../start.sh
-      - shell: bash
+      - run: echo "Hello Akanksha"
