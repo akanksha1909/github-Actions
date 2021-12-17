@@ -4,6 +4,7 @@ jobs:
   example-job:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v1
       - name: Run Script file
         run: ./start.sh
-        shell: bash
