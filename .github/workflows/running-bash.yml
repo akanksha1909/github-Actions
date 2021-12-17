@@ -4,6 +4,5 @@ jobs:
   example-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Run build Script
-      - run: ../start.sh
+      - run: ./start.sh
       - shell: bash
