@@ -1,11 +1,9 @@
 name: run-bash-file
 on: [push]
 jobs:
-  runs-on: ubuntu-latest
   example-job:
+    runs-on: ubuntu-latest
     steps:
-    - name: Run build Script
-      run: ../start.sh
-      shell: bash
-
-
+      - name: Run build Script
+      - run: ../start.sh
+      - shell: bash
