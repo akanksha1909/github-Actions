@@ -1,6 +1,7 @@
 name: run-bash-file
 on: [push]
 jobs:
+  runs-on: ubuntu-latest
   example-job:
     steps:
     - name: Run build Script
